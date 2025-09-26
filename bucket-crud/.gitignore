@@ -1,0 +1,47 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Type checkers / tooling
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs and caches
+*.log
+.cache/
+
+# Local environment files
+.env
+.env.*
+
+# Pyenv local version file
+.python-version
+
+# Google Cloud credentials (recommend storing under credentials/)
+credentials/
+*service-account*.json
+*credentials*.json
+
+
